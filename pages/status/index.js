@@ -3,7 +3,6 @@ import useSWR from "swr";
 async function fecthAPI(key) {
   const response = await fetch(key);
   const responseBody = await response.json();
-  console.log("responseBody", responseBody);
   return responseBody;
 }
 
