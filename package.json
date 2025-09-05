@@ -1,0 +1,24 @@
+{
+  "name": "hedge-contracts-mvp",
+  "version": "1.0.0",
+  "author": "Willian Maruyama",
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "services:up": "docker compose -f infra/compose.yaml up -d",
+    "services:stop": "docker compose -f infra/compose.yaml stop",
+    "services:down": "docker compose -f infra/compose.yaml down"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "dotenv-expand": "11.0.6",
+    "next": "14.2.13",
+    "next-connect": "1.0.0",
+    "node-pg-migrate": "7.6.1",
+    "pg": "8.13.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
