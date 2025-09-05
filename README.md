@@ -1,8 +1,8 @@
 # hedge-contracts-mvp
 
-# 📘 Hedge Contract Management MVP
+# Hedge Contract Management MVP
 
-## 🔹 Overview
+## Overview
 
 Hedge Contract Management MVP is a web application that helps businesses manage hedge contracts, track settlements, and ensure compliance.
 
@@ -15,7 +15,7 @@ This MVP is being developed to:
 
 ---
 
-## 🔹 Tech Stack
+## Tech Stack
 
 - **Frontend & Backend:** [Next.js](https://nextjs.org/) (API routes + React UI)
 - **Database:** PostgreSQL (managed with [node-pg-migrate](https://salsita.github.io/node-pg-migrate/))
@@ -27,14 +27,14 @@ This MVP is being developed to:
 
 ---
 
-## 🔹 Features
+## Features
 
-✅ User registration and login (JWT + cookies)  
-✅ Role-based permissions (trader, manager, auditor)  
-✅ Contract CRUD (create, list, update, delete)  
-✅ Settlement tracking with reminders  
-✅ Audit logging of contract changes  
-✅ Encrypted sensitive data (passwords, settlements)  
-✅ Infrastructure on AWS (ECS, RDS, ALB, S3, CloudWatch)
+- User registration and login (JWT + cookies)  
+-  Role-based permissions (trader, manager, auditor)  
+- Contract CRUD (create, list, update, delete)  
+- Settlement tracking with reminders  
+- Audit logging of contract changes  
+- Encrypted sensitive data (passwords, settlements)  
+- Infrastructure on AWS (ECS, RDS, ALB, S3, CloudWatch)
 
 ---
